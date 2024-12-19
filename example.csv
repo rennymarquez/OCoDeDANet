@@ -1,0 +1,1 @@
+instance,NMI_W,NMI_H,matrix_seed,snapshot,iters,model,modularity_W,modularity_H,density_W,density_H,entropy_W,entropy_H,n_comms_W,n_comms_H,N,K,alpha,solve_time,timestamp
