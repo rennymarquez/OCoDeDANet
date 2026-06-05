@@ -4,7 +4,6 @@ from .subnmf import SUBNMF
 from .dbnmfard import DBNMFARD
 from .dubnmfard import DUBNMFARD
 from .gdubnmfard import GDUBNMFARD
-from .dxbnmfard import DXBNMFARD
 from .custom import CUSTOM
 
 class ModelFactory():
@@ -24,6 +23,4 @@ class ModelFactory():
             return DUBNMFARD
         if model == 'GDUBNMFARD':
             return GDUBNMFARD
-        if model == 'DXBNMFARD':
-            return DXBNMFARD
         return CUSTOM

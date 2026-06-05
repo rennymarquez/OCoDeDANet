@@ -248,7 +248,7 @@ class Solver():
                     len(set(model.comm("H"))),
                     model.N,
                     model.K,
-                    self._config.alpha if self._config.model in ["DBNMFARD", "DUBNMFARD", "GDUBNMFARD", "DXBNMFARD", "CUSTOM"] else None,
+                    self._config.alpha if self._config.model in ["DBNMFARD", "DUBNMFARD", "GDUBNMFARD", "CUSTOM"] else None,
                     solve_time,
                     tm.ctime(),
                     thr,
