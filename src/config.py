@@ -7,7 +7,7 @@ class Config():
     def __init__(self):
         """TODO: to be defined. """
         parser = ArgumentParser()
-        parser.add_argument('--model', choices=['SBNMF', 'SUBNMF', 'DBNMFARD', 'DUBNMFARD', 'GDUBNMFARD', 'CUSTOM'], \
+        parser.add_argument('--model', choices=['SUBNMF', 'DBNMFARD', 'DUBNMFARD', 'GDUBNMFARD', 'CUSTOM'], \
                 help='The model to apply to the data.', required=True)
         parser.add_argument('--initial-K', type=int, \
                 help='Number of initial communities')
