@@ -7,12 +7,9 @@ for s in 12 123 1234 ; do \
     for model in GDUBNMFARD ; do \
       for instance in data_4/DataGreeneN*; do \
         echo $instance;
-        ./dyncls --model $model --initial-K $initialk --matrix-seed $s --min-iters 1000 --alpha $a $instance ;
-        notify.sh "$instance SEED: $s alfa: $a Model: $model ";
+        ./ocodedanet --model $model --initial-K $initialk --matrix-seed $s --min-iters 1000 --alpha $a $instance ;
         sleep 5
       done
     done
   done
 done
-
-notify.sh "END";

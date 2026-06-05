@@ -6,7 +6,7 @@ if __package__ is None and not hasattr(sys, 'frozen'):
     path = os.path.realpath(os.path.abspath(__file__))
     sys.path.insert(0, os.path.dirname(os.path.dirname(path)))
 
-import dyncls
+import ocodedanet
 
 if __name__ == '__main__':
-    dyncls.main()
+    ocodedanet.main()

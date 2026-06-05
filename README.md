@@ -1,7 +1,7 @@
-# dynamic-cls
+# OCoDeDANet
 
 # DESCRIPTION
-    dyncls [-h] --model {SNMF,SBNMF,SUBNMF,DBNMFARD,DUBNMFARD} [--initial-K INITIAL_K] [--n-iters N_ITERS] [--min-iters MIN_ITERS] [--a A] [--b B] [--tolerance TOLERANCE] [--alpha ALPHA]
+    ocodedanet [-h] --model {SNMF,SBNMF,SUBNMF,DBNMFARD,DUBNMFARD} [--initial-K INITIAL_K] [--n-iters N_ITERS] [--min-iters MIN_ITERS] [--a A] [--b B] [--tolerance TOLERANCE] [--alpha ALPHA]
               [--matrix-seed MATRIX_SEED] [--csv-file CSV_FILE]
               data
 # OPTIONS
