@@ -5,7 +5,6 @@ from .dbnmfard import DBNMFARD
 from .dubnmfard import DUBNMFARD
 from .gdubnmfard import GDUBNMFARD
 from .dxbnmfard import DXBNMFARD
-from .aadbnmfard import AADBNMFARD
 from .custom import CUSTOM
 
 class ModelFactory():
@@ -27,6 +26,4 @@ class ModelFactory():
             return GDUBNMFARD
         if model == 'DXBNMFARD':
             return DXBNMFARD
-        if model == 'AADBNMFARD':
-            return AADBNMFARD
         return CUSTOM
