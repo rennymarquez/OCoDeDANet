@@ -24,7 +24,6 @@ ocodedanet: src/*.py src/*/*.py
 
 test: ocodedanet
 	./venv/bin/python ocodedanet --model DBNMFARD data/Data17R0M0S1
-	./venv/bin/python ocodedanet --model SNMF data/Data17R0M0S1
 	./venv/bin/python ocodedanet --model SBNMF data/Data17R0M0S1
 	./venv/bin/python ocodedanet --model SUBNMF data/Data17R0M0S1
 	./venv/bin/python ocodedanet --model DBNMFARD --matrix-seed 1234 --initial-K 50 --alpha 1 ../dynamic-clustering/DATA/Data123S3/
