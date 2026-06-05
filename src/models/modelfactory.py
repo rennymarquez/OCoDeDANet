@@ -1,4 +1,3 @@
-from .subnmf import SUBNMF
 from .dbnmfard import DBNMFARD
 from .dubnmfard import DUBNMFARD
 from .gdubnmfard import GDUBNMFARD
@@ -9,8 +8,6 @@ class ModelFactory():
 
     @staticmethod
     def create_model(model: str) -> "Model":
-        if model == 'SUBNMF':
-            return SUBNMF
         if model == 'DBNMFARD':
             return DBNMFARD
         if model == 'DUBNMFARD':

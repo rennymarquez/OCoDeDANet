@@ -2,7 +2,7 @@
 
 # DESCRIPTION
 ```
-ocodedanet [-h] --model {SUBNMF,DBNMFARD,DUBNMFARD} [--initial-K INITIAL_K] [--n-iters N_ITERS]
+ocodedanet [-h] --model {DBNMFARD,DUBNMFARD} [--initial-K INITIAL_K] [--n-iters N_ITERS]
            [--min-iters MIN_ITERS] [--a A] [--b B] [--tolerance TOLERANCE] [--alpha ALPHA]
            [--matrix-seed MATRIX_SEED] [--csv-file CSV_FILE]
            data
@@ -15,7 +15,7 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  --model {SUBNMF,DBNMFARD,DUBNMFARD}
+  --model {DBNMFARD,DUBNMFARD}
                         The model to apply to the data.
   --initial-K INITIAL_K
                         Number of initial communities
